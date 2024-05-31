@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Währungsrechner</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="navbar">
+        <span>Währungsrechner</span>
+    </div>
+    <div class="content">
+        <label for="amount">Amount: </label>
+        <input type="number" id="amount" value="100">
+
+        <div class="dropdowns">
+            <label for="From">From:</label>
+            <select id="fromselect"></select>
+            <select id="toselect"></select>
+        </div>
+        <button id="btn_convert">Convert</button>
+        <p id="result"></p>
+    </div>
+</body>
+</html>

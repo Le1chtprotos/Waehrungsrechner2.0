@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+
+}
+
+body{
+    align-items: center;
+}
+
+.navbar{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.content{
+    margin-top: 20px;
+    background-color: antiquewhite;
+    padding-bottom: 200px;
+    border-radius: 20px;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    max-width: 25em;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    right: 50%;
+    padding: 2em;
+}
