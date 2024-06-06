@@ -4,30 +4,96 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     border: none;
-
+    outline: none;
 }
 
 body{
-    align-items: center;
+    background-color: skyblue;
 }
 
 .navbar{
     text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
+    color: white;
+    border-radius: 0px 0px 30px 30px;
+    padding-bottom: 20px;
 }
 
 .content{
     margin-top: 20px;
-    background-color: antiquewhite;
+    background-color: white;
     padding-bottom: 200px;
     border-radius: 20px;
     align-items: center;
     width: 90%;
     position: absolute;
-    max-width: 25em;
-    transform: translate(-50%, -50%);
+    max-width: 500px;
+    transform: translate(-50%, 20%);
     left: 50%;
     right: 50%;
     padding: 2em;
 }
+
+
+input#amount {
+    font-weight: 400;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002c;
+    color: #7a789d;
+    margin-bottom: 25px;
+    padding: 10px;
+  }
+  input#amount:focus {
+    color: skyblue;
+    border-color: skyblue;
+  }
+
+.dropdowns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("img/arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%, center;
+    background-size: 20px 20px;
+    background-color: skyblue;
+    color: #ffffff;
+}
+
+select option {
+    background-color: #ffffff;
+    color: #02002c;
+}
+
+button {
+    font-size: 15px;
+    width: 100%;
+    background-color: skyblue;
+    padding: 20px 0;
+    margin-top: 25px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  #result {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 15px;
+    color: #02002c;
+    background-color: #d0eff8;
+    padding: 25px 0;
+  }
